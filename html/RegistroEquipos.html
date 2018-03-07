@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="framework/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/Equipos.css">
+    <title>Registro Equipos/GOL</title>
+<style>
+
+    body{
+        background-size: cover;
+        background-image: url(images/equipos.jpg) ;
+        background-position:center center; 
+    }
+    </style>
+</head>
+<body>
+    <div class="jumbotron boxlogin">
+        <form method="POST" name="flogin" id="flogin">
+               
+                <label>GOL</label>   
+                <br>
+                <label>Id Equipo</label>   
+                <input type="text" disabled="disabled" name="id_equipo" id="id_equipo" class="form-control" placeholder="ID Equipo">    
+        <label>Nombre de equipo</label>   
+        <input type="text" name="username" id="nom_equipo" class="form-control" placeholder="Nombre Equipo">
+        <label>Cantidad de jugadores</label>
+        <input type="number" name="jugadores" id="jugadores" class="form-control" placeholder="Cantidad de jugadores que tiene su equipo">
+       <label>Direccion</label>
+       <input type="text" name="direccion" id="direccion" class="form-control" placeholder="Direccion">
+       <label>Telefono</label> 
+       <input type="text" name="telefono" id="telefono" class="form-control" placeholder="Digite un numero de telefono para poder contactarlo"> 
+       <input type="submit" class="btn btn-success" value="Crear equipo">
+        </form>
+
+    </div>
+</body>
+</html>
