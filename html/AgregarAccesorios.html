@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="framework/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/Accesorios.css">
+    <title>Registro Equipos/GOL</title>
+<style>
+
+    body{
+        background-size: cover;
+        background-image: url(images/accesorios.jpg) ;
+        background-position:center center; 
+    }
+    </style>
+</head>
+<body>
+    <div class="jumbotron boxlogin">
+        <form action="php/registroEquipo.php" method="POST" name="flogin2" id="flogin2">       
+                <label>GOL</label>   
+                <br>
+                <label>Id Accesorio</label>   
+                <input type="text" disabled="disabled" name="id_accesorio" id="id_accesorio" class="form-control" placeholder="ID Accesorio">    
+        <label>Nombre del accesorio</label>   
+        <input type="text" name="nombreAccesorio" id="nombreAccesorio" class="form-control" placeholder="Nombre del accesorio">
+        <label>Cantidad de accesorios</label>
+        <input type="number" name="cantAccesorios" id="cantAccesorios" class="form-control" placeholder="Cantidad de accesorios que va a registrar">
+    
+        </form>
+
+    </div>
+</body>
+</html>
