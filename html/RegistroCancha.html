@@ -5,20 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="framework/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/Equipos.css">
+    <link rel="stylesheet" type="text/css" href="css/Cancha.css">
     <title>CREACION CANCHAS/GOL</title>
 <style>
 
     body{
         background-size: cover;
-        background-image: url(images/cancha.jpg) ;
+        background-image: url(images/foto.jpg) ;
         background-position:center center; 
     }
     </style>
 </head>
 <body>
     <div class="jumbotron boxlogin">
-        <form method="POST" name="flogin" id="flogin">
+        <form action= "Cancha.php" method="POST" name="flogin" id="flogin">
                
                 <label>GOL</label>   
                 <br>
@@ -26,6 +26,8 @@
  <input type="text" disabled="disabled" name="id_cancha" id="id_cancha" class="form-control" placeholder="ID Cancha">    
         <label>Nombre Cancha</label>   
         <input type="text" name="nom_cancha" id="nom_cancha" class="form-control" placeholder="Nombre cancha">
+		<label>Tipo Cancha</label>   
+        <input type="text" name="tipo_cancha" id="tipo_cancha" class="form-control" placeholder="Tipo de cancha de acuerdo al numero de personas">
         <label>Direccion</label>
         <input type="text" name="can_direccion" id="can_direccion" class="form-control" placeholder="Ubicacion de la cancha">
         <label>Telefono</label>
