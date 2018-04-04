@@ -1,0 +1,17 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+.boxlogin{
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px coral;
+    width: 400px;
+    margin: 100px auto;
+    -webki-border-radius: 4px;
+    -moz-border-radius: 4px;
+
+}
+tr{
+    font-style: italic;
+
+}
