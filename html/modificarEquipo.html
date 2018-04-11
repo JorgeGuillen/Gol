@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="framework/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/Arbitro.css">
+    <title>Modificacion Arbitros</title>
+<style>
+
+    body{
+        background-size: cover;
+        background-image: url(images/equipos.jpg) ;
+        background-position:center center; 
+    }
+    </style>
+</head>
+<body>
+    <div class="jumbotron boxlogin">
+        <form action= "php/modificarEquipo.php" method="POST" name="flogin" id="flogin">
+               
+                <label>GOL</label>   
+                <br>
+        <label>Nombre Equipo</label>   
+        <input type="text" name="nomequi" id="nomequi" class="form-control" placeholder="Nombre del equipo que desea modificar">
+        <label>Numero de Equipos</label>
+        <input type="number" name="numj" id="numj" class="form-control" placeholder="Numero de jugadores">
+        <label>Telefono</label>
+        <input type="text" name="teleq" id="teleq" class="form-control" placeholder="Numero de telefono">
+        <label>Direccion</label>
+        <input type="text" name="direq" id="direq" class="form-control" placeholder="Direccion">
+        <input type="submit" class="btn btn-success" value="Actualizar Equipo">
+        </form>
+
+    </div>
+</body>
+</html>
