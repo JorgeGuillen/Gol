@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="framework/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/Cancha.css">
+    <title>Modificacion Arbitros</title>
+<style>
+
+    body{
+        background-size: cover;
+        background-image: url(images/foto.jpg) ;
+        background-position:center center; 
+    }
+    </style>
+</head>
+<body>
+    <div class="jumbotron boxlogin">
+        <form action= "php/modificarArbitro.php" method="POST" name="flogin" id="flogin">
+               
+                <label>GOL</label>   
+                <br>
+        <label>Nombre Arbitro</label>   
+        <input type="text" name="noma" id="noma" class="form-control" placeholder="Nombre del arbitro que desea modificar">
+        <label>Apellido Arbitro</label>   
+        <input type="text" name="apa" id="apa" class="form-control" placeholder="Apellido del arbitro que desea modificar">
+		<label>Telefono</label>
+        <input type="text" name="tela" id="tela" class="form-control" placeholder="Telefono del arbitro">
+        <label>Cobro</label>
+        <input type="text" name="cobroa" id="cobroa" class="form-control" placeholder="Cobro del arbitro">
+        <input type="submit" class="btn btn-success" value="Actualizar Arbitro">
+        </form>
+
+    </div>
+</body>
+</html>

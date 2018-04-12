@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="framework/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/Cancha.css">
+    <title>CREACION CANCHAS/GOL</title>
+<style>
+
+    body{
+        background-size: cover;
+        background-image: url(images/foto.jpg) ;
+        background-position:center center; 
+    }
+    </style>
+</head>
+<body>
+    <div class="jumbotron boxlogin">
+        <form action= "php/modificarCancha.php" method="POST" name="flogin" id="flogin">
+               
+                <label>GOL</label>   
+                <br>
+        <label>Nombre de la cancha</label>   
+        <input type="text" name="newcan" id="newcan" class="form-control" placeholder="Nombre de la cancha nueva">
+		<label>Telefono</label>
+        <input type="text" name="newtel" id="newtel" class="form-control" placeholder="Telefono de la cancha">
+        <label>Precio de la Cancha</label>
+        <input type="text" name="newpre" id="newpre" class="form-control" placeholder="Precio de la cancha">
+        <input type="submit" class="btn btn-success" value="Actualizar Cancha">
+        </form>
+
+    </div>
+</body>
+</html>
