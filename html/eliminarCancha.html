@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="framework/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/Arbitro.css">
+    <title>Eliminar Equipo</title>
+<style>
+
+    body{
+        background-size: cover;
+        background-image: url(images/foto.jpg) ;
+        background-position:center center; 
+    }
+    </style>
+</head>
+<body>
+    <div class="jumbotron boxlogin">
+        <form action= "php/eliminarCancha.php" method="POST" name="flogin" id="flogin">
+               
+                <label>GOL</label>   
+                <br>
+        <label>Nombre Canncha</label>   
+        <input type="text" name="nomCancha" id="nomCancha" class="form-control" placeholder="Nombre de la cancha que desea borrar">
+        <input type="submit" class="btn btn-success" value="Borrar Cancha">    
+    </form>
+
+    </div>
+</body>
+</html>
