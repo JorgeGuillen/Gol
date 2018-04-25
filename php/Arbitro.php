@@ -23,7 +23,7 @@
  
  echo "<br />" . "<h2>" . "Abitro Agregado Exitosamente!" . "</h2>";
  echo "<h4>" . "Agregado " . $_POST['nom_arbitro'] . "</h4>" . "\n\n";
- echo "<h5>" . "Hacer Login: " . "<a href='login.html'>Login</a>" . "</h5>"; 
+ 
  }
 
  else {

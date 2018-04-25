@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="framework/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/Torneos.css">
+    <title>CREACION Torneos/GOL</title>
+<style>
+
+    body{
+        background-size: cover;
+        background-image: url(images/champions.jpg) ;
+        background-position:center center; 
+    }
+    </style>
+</head>
+<body>
+    <div class="jumbotron boxlogin">
+        <form action= "php/ModificarTorneo.php" method="POST" name="flogin" id="flogin">
+               
+                <label>GOL</label>   
+                <br>
+         <label>Nombre Torneo</label>   
+        <input type="text" name="nom_torneo" id="nom_torneo" class="form-control" placeholder="Nombre Torneo">
+        <label>Cantidad Equipos</label>
+        <input type="number" name="equipos" id="equipos" class="form-control" placeholder="Cantidad de equipos necesarios para el torneo">
+        <input type="submit" class="btn btn-success" value="Actualizar torneo">
+        </form>
+
+    </div>
+</body>
+</html>
