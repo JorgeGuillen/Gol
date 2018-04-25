@@ -1,20 +1,62 @@
-# Gol
-Portal web para reservas de canchas sintéticas.
+# [Start Bootstrap - One Page Wonder](https://startbootstrap.com/template-overviews/one-page-wonder/)
 
+[One Page Wonder](http://startbootstrap.com/template-overviews/one-page-wonder/) is a basic one page template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
 
+## Preview
 
-Integrantes:
-Jorge Guillen Poveda
-Carlos Montoya Mayorga
-Isaac Barrantes Oviedo
+[![One Page Wonder Preview](https://startbootstrap.com/assets/img/templates/one-page-wonder.jpg)](https://blackrockdigital.github.io/startbootstrap-one-page-wonder/)
 
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-one-page-wonder/)**
 
+## Status
 
-Descripcion:
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-one-page-wonder/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-one-page-wonder.svg)](https://www.npmjs.com/package/startbootstrap-one-page-wonder)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-one-page-wonder.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-one-page-wonder)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-one-page-wonder/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-one-page-wonder)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-one-page-wonder/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-one-page-wonder?type=dev)
 
-El proyecto a realizar es una aplicación web que permita el alquiler de canchas sintéticas de futbol 5, esto será un proyecto general ya que no se cuenta con un cliente en específico y se pretende tener varios clientes para así ofrecer más variedad a los usuarios que la vayan a utilizar y buscar la forma de satisfacer sus necesidades.
-En la aplicación web se podrá reservar la cancha, siempre y cuando se encuentre disponible, se podrá escoger si se desea con árbitro ya que esto en muchos casos es opcional y supone un gasto extra para los usuarios. Por otra parte, se podrá inscribir a torneos que alguna cancha esté haciendo en algún momento, además, se tendrán perfiles de los equipos para poder acordar partidos entre equipos si se desea, también se encontrará disponible el lugar donde se encuentra la cancha sintética y su número telefónico, para que así de esta manera el usuario tenga una mejor orientación.
+## Download and Installation
 
-Con el desarrollo de la aplicación web mencionada anteriormente, se pretende buscar de una forma ayudar al usuario que frecuenta las canchas sintéticas y también al dueño de las mismas,  ya que en  algunos casos el proceso de reservar alguna cancha es complicado, muchas veces cuesta contactar al dueño de la cancha o incluso en algunos casos, no se sabe exactamente donde se encuentra ubicado el lugar y con esta aplicación se buscará agilizar este proceso y así ayudar al usuario y al propietario.
+To begin using this template, choose one of the following options to get started:
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/one-page-wonder/)
+* Install via npm: `npm i startbootstrap-one-page-wonder`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-one-page-wonder.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-one-page-wonder)
 
+## Usage
 
+### Basic Usage
+
+After downloading, simply edit the HTML and CSS files included with the template in your favorite text editor to make changes. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+
+### Advanced Usage
+
+After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
+
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/one-page-wonder/).
+
+## Custom Builds
+
+You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+
+## About
+
+Start Bootstrap is an open source library of free Bootstrap templates and themes. All of the free templates and themes on Start Bootstrap are released under the MIT license, which means you can use them for any purpose, even for commercial projects.
+
+* https://startbootstrap.com
+* https://twitter.com/SBootstrap
+
+Start Bootstrap was created by and is maintained by **[David Miller](http://davidmiller.io/)**, Owner of [Blackrock Digital](http://blackrockdigital.io/).
+
+* http://davidmiller.io
+* https://twitter.com/davidmillerskt
+* https://github.com/davidtmiller
+
+Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework created by [Mark Otto](https://twitter.com/mdo) and [Jacob Thorton](https://twitter.com/fat).
+
+## Copyright and License
+
+Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-one-page-wonder/blob/gh-pages/LICENSE) license.
